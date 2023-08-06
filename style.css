@@ -55,23 +55,7 @@ textarea {
     font-size: larger;
     font-family: cursive;
 }
-
-#word-count {
-    text-align: center;
-    width: max-content;
-    border: #ffffff solid 0px;
-    border-radius: 10px;
-    padding: 5px;
-    color: #ffffff;
-    margin: 0 auto;
-    background-color: #205E61;
-    font-size: 18px;
-    font-weight: 900;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 5px;
-}
-
-#letter-count {
+.res{
     text-align: center;
     width: max-content;
     border: #ffffff solid 0px;
@@ -85,6 +69,7 @@ textarea {
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
+    transition: ease-in 1s;
 }
 
 .result {
@@ -102,6 +87,8 @@ font-size: large;
 
     .result {
         flex-direction: column;
+        transition:flex-direction 1s;
+        gap: 5px;
     }
 
     textarea {
